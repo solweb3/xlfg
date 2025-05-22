@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "X LFG",
+    "version": "1.0",
+    "description": "Deploy a token from X/Twitter post on pump.fun",
+    "icons": {
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "storage",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://x.com/*",
+        "https://pump.fun/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://x.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://pump.fun/create*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
