@@ -25,5 +25,5 @@ A browser extension that allows you to deploy a token from any X/Twitter post on
 2. Click the **LFG button** added by the extension to the post.
 3. The extension will open [pump.fun](https://pump.fun) and auto-fill the token creation form with the post's data.
 
-Follow for project updates on [https://x.com/xLFGDeploy]([https://x.com](https://x.com/xLFGDeploy)
+Follow for project updates on [https://x.com/xLFGDeploy](https://x.com/xLFGDeploy)
 
